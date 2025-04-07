@@ -1,0 +1,23 @@
+# Cloudflare Workers build output and local development files
+.wrangler/
+dist/
+worker/
+node_modules/
+.dev.vars
+
+# Environment variables and secrets
+.env
+
+# Local development
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage directory
+coverage/ 

@@ -1,0 +1,20 @@
+name = "gitcoin-proxy"
+main = "index.js"
+compatibility_date = "2023-05-18"
+
+# Route that your worker will be served on
+# Replace 'your-domain.com' with your actual domain
+# routes = [
+#   { pattern = "your-domain.com/api/gitcoin/*", zone_name = "your-domain.com" }
+# ]
+
+# Automatically assign a workers.dev subdomain
+workers_dev = true
+
+# Configure environment variables - add your Gitcoin API key here
+[vars]
+# GITCOIN_API_KEY = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+
+# If you need to serve static assets
+[site]
+bucket = "./public" 
